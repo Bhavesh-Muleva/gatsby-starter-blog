@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Build the application
-RUN npm run build
+RUN gatsby build
 
 # Expose port 8000 to the host machine
 EXPOSE 8000
