@@ -20,4 +20,4 @@ RUN gatsby build
 EXPOSE 8000
 
 # Start the application
-CMD [ "gatsby", "serve", "-H", "0.0.0.0" ]
+CMD [ "gatsby", "serve" ]
