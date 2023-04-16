@@ -2,7 +2,7 @@
 FROM node:14
 
 # Set the working directory in the container to /app
-WORKDIR /app
+WORKDIR /gatsby-starter-blog
 
 # Copy package.json and package-lock.json into the container at /app
 COPY package*.json ./
